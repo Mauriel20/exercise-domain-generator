@@ -17,4 +17,4 @@ pronoun.forEach((pronoun) =>{
     });
 });
 
-document.querySelector("p").innerHTML = netdomain;
+document.querySelector("pre").innerHTML = netdomain;
