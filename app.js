@@ -1,13 +1,13 @@
  
- /*-----------BEGIN vars-----------*/
+ /*-Declaración de variables-*/
   let pronoun = ['the','our'];
   let adj = ['great', 'big' ];
   let noun = ['jogger','racoon'];
   let netdomain = "";
 
-  /*----------END vars------------*/
+  /*-Fin de la declaración--*/
 
-/***for each statement using arrow function*/
+/***Permite hacer todas las soluciones posibles */
 pronoun.forEach((pronoun) =>{
     adj.forEach((adj) =>{
         noun.forEach((noun) =>{ 
@@ -17,4 +17,6 @@ pronoun.forEach((pronoun) =>{
     });
 });
 
-document.querySelector("pre").innerHTML = netdomain;
+document.querySelector("p").innerHTML = netdomain;
+
+/* fin javascript */
